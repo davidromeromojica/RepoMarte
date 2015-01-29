@@ -5,6 +5,7 @@
  */
 package co.edu.unbosque.test;
 
+import co.edu.unbosque.marte.LeerDoc;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import org.testng.Assert;
@@ -18,12 +19,12 @@ public class ExplordorTest {
     
         @Test
     public void noexiste() throws FileNotFoundException, IOException{
-        LeerDoc leer = new LeerDoc("C:/Users/Andres/Desktop/exploradoe.txt");        
+       // LeerDoc leer = new LeerDoc("C:/Users/Andres/Desktop/exploradoe.txt");  //no borrar adaptar otra direccion      
     }
     
         @Test
     public void existe() throws FileNotFoundException, IOException{
-        LeerDoc leer = new LeerDoc("C:/Users/Andres/Desktop/exploradores.txt");        
+       // LeerDoc leer = new LeerDoc("C:/Users/Andres/Desktop/exploradores.txt");// no borrar        
     } 
     
     
